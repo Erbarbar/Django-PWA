@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+{% load pwa %}
+{% load static %}
+<head>
+    {% progressive_web_app_meta %}
+    <title>PWA App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/static/css/home.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/"><h3>Back</h3></a>
+    </div>
+    <div class="content" id="content">
+        <h1>{{entry.text}}</h1>
+    </div>
+    <div class="footer">
+        
+    </div>
+</body>
+</html>
