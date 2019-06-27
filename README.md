@@ -7,7 +7,7 @@ This project is meant to be the base for any django progressive web app. It is a
 Clone the project to your desired directory, and deploy it to your repository.
 
 ```
-$ git clone --depth 1 https://github.com/Erbarbar/Django-PWA
+$ git clone https://github.com/Erbarbar/Django-PWA .
 $ cd Django-PWA
 ```
 Delete the `.git` folder. From Windows console it can be done with `$ rd /Q /S .git`
