@@ -5,5 +5,5 @@ django-pwa==1.0.5
 gunicorn==19.9.0
 psycopg2==2.8.3
 pytz==2019.1
-sqlparse==0.3.0
+sqlparse==0.4.4
 whitenoise==4.1.2
